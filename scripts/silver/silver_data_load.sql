@@ -1,3 +1,13 @@
+/*
+
+The provided query creates a STORED PROCEDURE which loads data from bronze layer tables into silver layer tables.
+The data is cleaned as per data.
+
+
+*/
+
+
+
 
 CREATE OR ALTER PROCEDURE silver.load_silver AS
 BEGIN
